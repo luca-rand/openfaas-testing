@@ -3,7 +3,7 @@ provider:
   name: openfaas
   gateway: http://192.168.99.100:31112
 functions:
-  faas:
+  helloworld:
     lang: golang-middleware
     handler: ./faas
-    image: faas:latest
+    image: helloworld:latest
